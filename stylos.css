@@ -59,3 +59,72 @@ footer {
     color: whitesmoke;
     height: 3rem;
 }
+
+
+
+
+
+
+@media screen {
+    .welcome {
+        display: flex;
+        flex-direction: column;
+        background-color: #E8CCC4;
+        
+        
+    }
+    .profile-wrap {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .profile > img {
+        width: 100px;
+        border-radius: 1.5rem;
+    }
+    
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 15px;
+    
+    }
+    .card {
+        background-color: #7F8F83;
+        width: 100px;
+        height: 80px;
+        border-radius: 1rem;
+        text-align: center;
+        color: whitesmoke;
+    
+    }
+    
+    .gallery  {
+        display: grid;
+        grid-template-columns: repeat(3, 3fr);
+        grid-template-rows:  1fr 1fr 1fr ;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    
+    .item{
+        
+        border-radius: 1rem;
+        width: 200px;
+        height: 250px;
+    
+    }
+    
+    
+    
+    footer {
+        padding-top: 1rem ;
+        text-align: center;
+        background-color: #7F8F83;
+        color: whitesmoke;
+        height: 3rem;
+    }
+}
